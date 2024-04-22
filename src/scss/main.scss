@@ -7,7 +7,17 @@ body {
     padding: 0;
     max-width: 1920px;
     width: 100%;
+    color: $special_dark-grey;
 }
 *,*::before,*::after{
     box-sizing: border-box;
+}
+a{
+    text-decoration: none ;
+    color: inherit;
+}
+.conteiner{
+    max-width: $desktop;
+    width: 100%;
+    margin: 0 auto;
 }
