@@ -16,8 +16,14 @@ a{
     text-decoration: none ;
     color: inherit;
 }
-.conteiner{
+.container{ 
     max-width: $desktop;
     width: 100%;
     margin: 0 auto;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
 }

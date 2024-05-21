@@ -35,6 +35,18 @@ export default {
     img {
       padding-left: 10px;
     }
+    ul{
+      padding-right: 10px;
+      display: flex;
+      justify-content: space-between;
+    align-items: center;
+    }
   }
-}
+  &-list__item{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}}
+
 </style>
